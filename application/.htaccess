@@ -1,0 +1,5 @@
+AddType text/css .css
+<IfModule mod_security.c>
+SecFilterEngine Off
+SecFilterScanPOST Off
+</IfModule>

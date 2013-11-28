@@ -1,0 +1,79 @@
+cPanel Panel de control: http://66.7.218.220/whm/
+cPanel Contrasena: sWzQTEzKW3
+
+estrategas.fam
+estrateg
+,1xw.=^a0@TP
+
+
+WWWAcct 12.5.0 (c) 2013 cPanel, Inc....
+
+Dns Zone check is enabled.
++===================================+
+| New Account Info                  |
++===================================+
+| Domain: estrategas.fam
+| Ip: 66.7.218.220 (n)
+| HasCgi: y
+| UserName: estrateg
+| PassWord: ,1xw.=^a0@TP
+| CpanelMod: x3
+| HomeRoot: /home
+| Quota: 2000 Meg
+| NameServer1: ns2248.dizinc.com
+| NameServer2: ns2249.dizinc.com
+| NameServer3: 
+| NameServer4: 
+| Contact Email: 
+| Package: webtacti_General
+| Feature List: default
+| Language: es
++===================================+
+...Done
+
+Running pre creation script (/usr/local/cpanel/scripts/prewwwacct)......Done
+
+Adding User...Removing Shell Access (n)
+Success...Done
+
+Copying skel files from /home/webtacti/cpanel3-skel/ to /home/estrateg/......Done
+
+Using Universal Quota Support (quota=2048000)
+Adding Entries to httpd.conf......Done
+
+Setting up Mail & Local Domains...localdomains...valiases ...vdomainaliases...vfilters......Done
+
+Configuring DNS...Bind reconfiguring on rmx6 using rndc
+Zone estrategas.fam has been successfully added
+...Done
+
+Restarting apache......Done
+
+Password for estrateg has been changed
+Updating Authentication Databases...Updating ftp passwords for estrateg
+Ftp password files updated.
+Ftp vhost passwords synced
+...Done
+
+Verifying MX Records and Setting up Databases...Reconfiguring Mail Routing:
+LOCAL MAIL EXCHANGER: This server will serve as a primary mail exchanger for estrategas.fam's mail.:
+ This configuration has been manually selected.
+
+...Done
+
+Setting up Proxy Subdomains......Done
+
+Generating and installing DKIM keys......Done
+
+Bind reloading on rmx6 using rndc zone: [estrategas.fam]
+Sending Account Information......Done
+
+System has 2 free ips.
+Running post creation scripts (/usr/local/cpanel/scripts/legacypostwwwacct, /usr/local/cpanel/scripts/postwwwacct, /usr/local/cpanel/scripts/postwwwacctuser)......Done
+
+wwwacct creation finished
+Setting up Domain Pointers......Done
+
+Setting Reseller Privs......Done
+
+Account Creation Complete!!!...Account Creation Ok...Done
